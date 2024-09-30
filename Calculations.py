@@ -1,10 +1,12 @@
 #Question 1
 def calculate_discount(price, discount_percent):
     if discount_percent >= 20:
-    discount_amount = price * (discount_percent / 100)
+        discount_amount = price * (discount_percent / 100)
         final_price = price - discount_amount
         return final_price
-    else: return price
+    else:
+        return price
+
 
 #Question 2
 try:
