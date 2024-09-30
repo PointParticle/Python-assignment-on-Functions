@@ -18,6 +18,3 @@ try:
         print(f"No discount applied. The price remains: {final_price}")
     else:
         print(f"The final price after a {discount_percent}% discount is: {final_price}")
-
-except ValueError:
-    print("Please enter valid numerical values for price and discount.")
